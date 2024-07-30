@@ -43,7 +43,7 @@ body{
     background-color: #ffffff;
     color: #000000; 
     margin-left: 240px;  
-    margin-top: -820px;
+    margin-top: -540px;/*520*/
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .advertencia{
@@ -103,14 +103,19 @@ body{
     padding: 23.5px 0;
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.seccion_rectangulo{
+    display: flex;
+    flex-direction: column;
+    background-color:#a6b0d4;
+}
 .rectangulo{
    color: antiquewhite;
     width:400px;
     height:944px;
     border-radius: 32px;  
     gap: 80px;
-     margin-left: 1000px;  
-      margin-top: -40px;   */
+    margin-left: 1000px;  
+    margin-top: -40px;  
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .mensaje{
@@ -119,7 +124,7 @@ body{
     gap: 16px;
     text-align: center;
     margin-left: 1032px;  
-    margin-top: 32px;
+    margin-top: -402px;/*32*/
      
 }
 
