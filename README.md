@@ -2,14 +2,7 @@
  Desarrollo de tarea paraentregar
  
 
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
-.muneco{
-    width: 336px;
-    height: 304px;
-    margin-left: 1032px;  
-    margin-top: 115px;
-       
-}
+
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .mensaje{
