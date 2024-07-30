@@ -15,10 +15,9 @@ body{
 .pantalla__main{
     display: flex;
     align-items: center; 
-    margin: 1%;
-    justify-content: space-between; 
-      
-    
+    margin: 0%;
+    justify-content: space-between;      
+    gap: 80%;
 }
 .escritorio__seccion{
     display: flex;
@@ -44,7 +43,7 @@ body{
     background-color: #ffffff;
     color: #000000; 
     margin-left: 240px;  
-    margin-top: 80px;
+    margin-top: -820px;
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .advertencia{
@@ -53,7 +52,7 @@ body{
     height: 18px;
     align-items: stretch;
     margin-left: 240px;
-    margin-top: 71px;/**/
+    margin-top:643px ;/*71px*/
 
 }
 .advertenciaImg{
@@ -102,4 +101,39 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 300;
     padding: 23.5px 0;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.rectangulo{
+   color: antiquewhite;
+    width:400px;
+    height:944px;
+    border-radius: 32px;  
+    gap: 80px;
+     margin-left: 1000px;  
+      margin-top: -40px;   */
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.mensaje{
+    width: 336px;
+    height: 122px;  
+    gap: 16px;
+    text-align: center;
+    margin-left: 1032px;  
+    margin-top: 32px;
+     
+}
+
+.mensajeTitulo{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #343A40; 
+     
+}
+.mensajeParrafo{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #495057;
+   
 }
