@@ -187,3 +187,29 @@ body{
     font-weight: 300;
     padding: 23.5px 0;
 }
+
+.botonAccionCopi{
+
+    width: 336; 
+    height: 67;
+    margin-left: 1000px;
+    margin-top: -67px; 
+    padding: 24.5px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    border-radius: 24px; 
+   
+    background-color:#0A3871 ;
+    color: #ffffff;
+}
+ /*
+    
+       gap: 600px;  
+    
+
+    
+    
+    
+    */
