@@ -22,8 +22,8 @@ body{
 .escritorio__seccion{
     display: flex;
     flex-direction: column;
-    background-color:#a6b0d4;  
-    width:1440px; 
+    /*background-color:#a6b0d4; */
+    background-image: url("img/bestias-de-la-edad-de-hielo-4.jpg");
     height:1024px;
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -37,7 +37,7 @@ body{
 .seccion_rectangulo{
     display: flex;
     flex-direction: column;
-    background-color:#a6b0d4;
+   
 }
 .rectangulo{
    color: antiquewhite;
