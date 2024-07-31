@@ -12,8 +12,7 @@
     --color-texPeque: antiquewhite;
     --color-advertencia:hsl(69, 90%, 50%);
 
-    --fuente-monserrat:"Montserrat", sans-serif;
-    --fuente-krona:"Krona One", sans-serif;
+    --fuente-Inter:"Inter", sans-serif;
 }
 
 *{
@@ -30,8 +29,9 @@ body{
 .pantalla__main{
     display: flex;
     align-items: center; 
+    justify-content: space-between;   
     margin: 0%;
-    justify-content: space-between;      
+       
     gap: 80%;
 }
 .escritorio__seccion{
@@ -49,6 +49,7 @@ body{
     height: 48px;    
     margin-left: 40px;  
     margin-top: 40px;
+
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .seccion_rectangulo{
@@ -64,6 +65,7 @@ body{
     gap: 80px;
     margin-left: 1000px;  
     margin-top: -40px;  
+
 }
 .rec_peque{
     color: var(--color-texPeque);
@@ -73,7 +75,7 @@ body{
     margin-top: -908px; 
     font-size: 24px;
     font-weight: 400; 
-    font-family: "Inter", sans-serif;
+    font-family:var(--fuente-Inter);
     background-color:var(--color-secundario);
     color: var(--color-primario); 
 }
@@ -99,14 +101,14 @@ body{
 
 .mensajeTitulo{
     font-size: 24px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     font-weight: 500;
     color: var(--color-titulo); 
      
 }
 .mensajeParrafo{
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     font-weight: 400;
     color: var(--color-parrafo);
    
@@ -118,7 +120,7 @@ body{
     height: 48px;
     font-size: 32px;
     font-weight: 300; 
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     background-color:var(--color-secundario);
     color:var(--color-primario); 
     margin-left: 240px;  
@@ -130,7 +132,7 @@ body{
     height: 288px;
     font-size: 32px;
     font-weight: 400; 
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     background-color:var(--color-secundario);
     color: var(--color-primario); 
     margin-left: 240px;  
@@ -165,7 +167,7 @@ body{
     display: inline-block;
     font-size: 12px;   
     font-weight: 400;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     color: var(--color-advertencia);
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
@@ -186,7 +188,7 @@ body{
     background-color:var(--color-terciario) ;
     color: var(--color-secundario);
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     font-weight: 300;
     padding: 23.5px 0;
 }
@@ -198,7 +200,7 @@ body{
     background-color:var(--color-botonOff) ;
     color:var(--color-terciario);
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     font-weight: 300;
     padding: 23.5px 0;
 }
@@ -212,19 +214,10 @@ body{
     padding: 24.5px 0px;
     text-align: center;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fuente-Inter);
     font-weight: 300;
     border-radius: 24px; 
    
     background-color:var(--color-terciario);
     color:var(--color-secundario);
 }
- /*
-    
-       gap: 600px;  
-    
-
-    
-    
-    
-    */
