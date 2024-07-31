@@ -42,13 +42,25 @@ body{
    
 }
 .rectangulo{
-   color: antiquewhite;
+   background-color:  rgb(248, 218, 236);
     width:400px;
     height:944px;
     border-radius: 32px;  
     gap: 80px;
     margin-left: 1000px;  
     margin-top: -40px;  
+}
+.rec_peque{
+    color: antiquewhite;
+    width:336px;
+    height:781px;
+    margin-left: 1032px;  
+    margin-top: -908px; 
+    font-size: 24px;
+    font-weight: 400; 
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: #000000; 
 }
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 .muneco{
@@ -97,6 +109,18 @@ body{
     margin-left: 240px;  
     margin-top: -580px;/*520*/
 }
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+.textoIngresadoAbout{
+    width: 680px;
+    height: 288px;
+    font-size: 32px;
+    font-weight: 400; 
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: #000000; 
+    margin-left: 240px;  
+    margin-top: -700px;/*-580*/
+}
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .advertencia{
     display: inline-block;
@@ -107,6 +131,15 @@ body{
     margin-top:596px ;/*71px*/
 
 }
+.advertencia_about{
+    display: inline-block;
+    width: 229px;
+    height: 18px;
+    align-items: stretch;
+    margin-left: 240px;
+    margin-top:389px ;/*71px*/
+}
+
 .advertenciaImg{
     display: inline-block;
     width: 16px;
