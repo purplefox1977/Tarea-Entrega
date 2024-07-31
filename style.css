@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+:root{
+    --color-primario:#000000;
+    --color-secundario:#ffffff;
+    --color-terciario: #0A3871;
+    --color-titulo:#343A40;
+    --color-parrafo:#495057;
+    --color-botonOff:#D8DFE8;
+    --color-texarea:rgb(248, 218, 236);
+    --color-texPeque: antiquewhite;
+    --color-advertencia:hsl(69, 90%, 50%);
+
+    --fuente-monserrat:"Montserrat", sans-serif;
+    --fuente-krona:"Krona One", sans-serif;
+}
+
 *{
     padding: 0%;
     margin: 0%;
 }
 body{
-    background-color: #e5e5e5a4;
-    color: #000000;
+    background-color: var(--color-secundario);
+    color:var(--color-primario);
     height: 100vh;
     box-sizing: border-box;
 
@@ -42,7 +57,7 @@ body{
    
 }
 .rectangulo{
-   background-color:  rgb(248, 218, 236);
+   background-color:  var(--color-texarea);
     width:400px;
     height:944px;
     border-radius: 32px;  
@@ -51,7 +66,7 @@ body{
     margin-top: -40px;  
 }
 .rec_peque{
-    color: antiquewhite;
+    color: var(--color-texPeque);
     width:336px;
     height:781px;
     margin-left: 1032px;  
@@ -59,8 +74,8 @@ body{
     font-size: 24px;
     font-weight: 400; 
     font-family: "Inter", sans-serif;
-    background-color: #ffffff;
-    color: #000000; 
+    background-color:var(--color-secundario);
+    color: var(--color-primario); 
 }
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 .muneco{
@@ -86,14 +101,14 @@ body{
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    color: #343A40; 
+    color: var(--color-titulo); 
      
 }
 .mensajeParrafo{
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    color: #495057;
+    color: var(--color-parrafo);
    
 }
 
@@ -104,8 +119,8 @@ body{
     font-size: 32px;
     font-weight: 300; 
     font-family: "Inter", sans-serif;
-    background-color: #ffffff;
-    color: #000000; 
+    background-color:var(--color-secundario);
+    color:var(--color-primario); 
     margin-left: 240px;  
     margin-top: -580px;/*520*/
 }
@@ -116,8 +131,8 @@ body{
     font-size: 32px;
     font-weight: 400; 
     font-family: "Inter", sans-serif;
-    background-color: #ffffff;
-    color: #000000; 
+    background-color:var(--color-secundario);
+    color: var(--color-primario); 
     margin-left: 240px;  
     margin-top: -700px;/*-580*/
 }
@@ -151,7 +166,7 @@ body{
     font-size: 12px;   
     font-weight: 400;
     font-family: "Inter", sans-serif;
-    color: hsl(69, 90%, 50%);
+    color: var(--color-advertencia);
 }
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -168,8 +183,8 @@ body{
     border-radius: 24px; 
     gap: 24px;
     text-align: center; 
-    background-color:#0A3871 ;
-    color: #ffffff;
+    background-color:var(--color-terciario) ;
+    color: var(--color-secundario);
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
@@ -180,8 +195,8 @@ body{
     border-radius: 24px; 
     text-align: center;
     gap: 16px; 
-    background-color:#D8DFE8 ;
-    color: #0A3871;
+    background-color:var(--color-botonOff) ;
+    color:var(--color-terciario);
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 300;
@@ -201,8 +216,8 @@ body{
     font-weight: 300;
     border-radius: 24px; 
    
-    background-color:#0A3871 ;
-    color: #ffffff;
+    background-color:var(--color-terciario);
+    color:var(--color-secundario);
 }
  /*
     
