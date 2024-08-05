@@ -78,6 +78,7 @@ body{
     font-family:var(--fuente-Inter);
     background-color:var(--color-secundario);
     color: var(--color-primario); 
+    border: none;
 }
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 .muneco{
@@ -123,6 +124,7 @@ body{
     font-family: var(--fuente-Inter);
     background-color:var(--color-secundario);
     color:var(--color-primario); 
+    border: none;
     margin-left: 240px;  
     margin-top: -580px;/*520*/
 }
@@ -135,6 +137,7 @@ body{
     font-family: var(--fuente-Inter);
     background-color:var(--color-secundario);
     color: var(--color-primario); 
+    border: none;
     margin-left: 240px;  
     margin-top: -700px;/*-580*/
 }
@@ -216,6 +219,3 @@ body{
     font-weight: 300;
     padding: 23.5px 0;
     margin-left: 1032px;
-    margin-top: -67px;       
-
-}
